@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Researches on IVALab: BioLoco Research</title>
+    <title>Researches on BioLoco Research</title>
     <link>https://ivalab.github.io/BioLoco/public/research/</link>
-    <description>Recent content in Researches on IVALab: BioLoco Research</description>
+    <description>Recent content in Researches on BioLoco Research</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 05 Nov 2019 00:00:00 +0000</lastBuildDate>

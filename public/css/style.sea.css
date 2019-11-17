@@ -330,8 +330,9 @@ SIDEBAR + RIGHT COLUMN
   }
 }
 .sidebar-heading {
-  font-size: 18px;
-  text-transform: uppercase;
+  font-size: 20px;
+  font-variant: small-caps;
+  text-align:center;
   letter-spacing: 0.1em;
 }
 .sidebar-heading a {
@@ -347,7 +348,9 @@ SIDEBAR + RIGHT COLUMN
   text-decoration: none;
 }
 .sidebar-p {
-  color: #999999;
+  text-align: justify;
+  text-justify: inter-word;
+  color: #444444;
   font-size: 14px;
 }
 .sidebar-menu {
@@ -648,6 +651,36 @@ p.social.social--big i {
 }
 /*
 =====================
+RESEARCH SUPPORT
+=====================
+*/
+.support {
+  text-align: justify;
+  text-justify: inter-word;
+  color: #666666;
+  font-size: 14px;
+}
+.support p.credit {
+  text-align: justify;
+  text-justify: inter-word;
+  margin-top:10;
+  margin-bottom: 14px;
+}
+.support p.credit a {
+  color: #666666;
+}
+@media (max-width: 991px) {
+  .support p.credit {
+    text-align: center !important;
+  }
+}
+@media (max-width: 991px) {
+  .support {
+    text-align: center !important;
+  }
+}
+/*
+=====================
 COPYRIGHT
 =====================
 */
@@ -656,6 +689,7 @@ COPYRIGHT
   font-size: 13px;
 }
 .copyright p.credit {
+  margin-top:500px;
   margin-bottom: 10px;
 }
 .copyright p.credit a {
@@ -1937,13 +1971,11 @@ label {
 }
 /* type */
 h1,
-h2,
 h3,
 h4,
 h5,
 h6,
 .h1,
-.h2,
 .h3,
 .h4,
 .h5,
@@ -1960,6 +1992,11 @@ h1,
 h2,
 .h2 {
   font-size: 38px;
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  line-height: 1.0;
+  font-variant:small-caps;
+  color: #000000;
 }
 h3,
 .h3 {
