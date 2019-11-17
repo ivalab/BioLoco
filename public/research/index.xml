@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Researches on IVALab: BioLoco Research</title>
-    <link>http://ivalab.github.io/BioLoco/public/research/</link>
+    <link>https://ivalab.github.io/BioLoco/public/research/</link>
     <description>Recent content in Researches on IVALab: BioLoco Research</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 05 Nov 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://ivalab.github.io/BioLoco/public/research/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://ivalab.github.io/BioLoco/public/research/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Creating snake-like robot-ground interactions.</title>
-      <link>http://ivalab.github.io/BioLoco/public/research/scales/</link>
+      <link>https://ivalab.github.io/BioLoco/public/research/scales/</link>
       <pubDate>Tue, 05 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://ivalab.github.io/BioLoco/public/research/scales/</guid>
+      <guid>https://ivalab.github.io/BioLoco/public/research/scales/</guid>
       <description>This is a test. Not sure why it doesn&amp;rsquo;t work</description>
     </item>
     
     <item>
       <title>Modeling Planar Motion.</title>
-      <link>http://ivalab.github.io/BioLoco/public/research/modeling/</link>
+      <link>https://ivalab.github.io/BioLoco/public/research/modeling/</link>
       <pubDate>Tue, 05 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://ivalab.github.io/BioLoco/public/research/modeling/</guid>
+      <guid>https://ivalab.github.io/BioLoco/public/research/modeling/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt; Deriving equations of motion for snake movement on a flat
 plane is fairly easy and provides a unified approach to modeling many
 different gats.&lt;/p&gt;</description>
@@ -33,10 +33,10 @@ different gats.&lt;/p&gt;</description>
     
     <item>
       <title>Rectilinear Motion.</title>
-      <link>http://ivalab.github.io/BioLoco/public/research/rectilinear/</link>
+      <link>https://ivalab.github.io/BioLoco/public/research/rectilinear/</link>
       <pubDate>Tue, 05 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://ivalab.github.io/BioLoco/public/research/rectilinear/</guid>
+      <guid>https://ivalab.github.io/BioLoco/public/research/rectilinear/</guid>
       <description>The easiest gait to analyze is the rectilinear locomotion gait.</description>
     </item>
     

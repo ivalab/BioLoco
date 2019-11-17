@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>IVALab BioLocomotion Research on IVALab: BioLoco Research</title>
-    <link>http://ivalab.github.io/BioLoco/public/about/</link>
+    <link>https://ivalab.github.io/BioLoco/public/about/</link>
     <description>Recent content in IVALab BioLocomotion Research on IVALab: BioLoco Research</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="http://ivalab.github.io/BioLoco/public/about/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://ivalab.github.io/BioLoco/public/about/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
