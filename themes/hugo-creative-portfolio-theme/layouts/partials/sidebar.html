@@ -1,6 +1,16 @@
 <div id="sidebar" class="col-xs-6 col-sm-4 col-md-3 sidebar-offcanvas">
   <div class="sidebar-content">
-    <h1 class="sidebar-heading"><a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></h1>
+
+  <center style="margin-top:0px;margin-bottom:0px">
+  <A HREF="https://ivalab.gatech.edu">
+  <IMG SRC="https://ivalab.gatech.edu/ivalab.png">
+  </A>
+  </center>
+    <a href="{{ .Site.BaseURL }}">
+    <h1 style="text-align:center;font-variant:small-caps" class="sidebar-heading">
+    {{ .Site.Title }}
+    </h1>
+    </a>
     {{ range .Site.Params.sidebarAbout }}
       <p class="sidebar-p">{{ . | safeHTML }}</p>
     {{ end }}
@@ -9,8 +19,23 @@
         <li><a href="{{ absURL .url }}">{{ .name }}</a></li>
       {{ end }}
     </ul>
+
     {{ partial "social_buttons_in_sidebar.html" . }}
 
+    <div class="support">
+      <p class="credit">
+        {{ with .Site.Params.support }}
+          {{ . | safeHTML }} 
+        {{ end }}
+      </p>
+      <p class="support">
+        <p class="credit">
+      {{ range .Site.Params.grants }}
+        <a target="_blank" href="{{ absURL .url }}">{{ .grantee }} &#35;{{ .award }} </a><BR>
+      {{ end }}
+        </p>
+      </p>
+    </div>
     <div class="copyright">
       <p class="credit">
         {{ with .Site.Params.copyright }}

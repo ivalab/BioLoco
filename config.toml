@@ -1,16 +1,27 @@
 baseurl = "https://ivalab.github.io/BioLoco/public"
-title = "IVALab: BioLoco Research"
+title = "BioLoco Research"
 theme = "hugo-creative-portfolio-theme"
 languageCode = "en-us"
 disqusShortname = ""
 googleAnalytics = ""
 
-
 [params]
   style = "sea"
   description = "Research efforts related to biologically-inspired locomotion."
   copyright = ""
-  sidebarAbout = [ "Test" ]
+  support = "Research supported in part by National Science Foundation.  Any opinions, findings, and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the National Science Foundation."
+  sidebarAbout = [ "Research efforts related to controlled locomotion of undulatory bio-inspired robots (snakes, salamanders, and related)." ]
+
+
+  [[params.grants]]
+  grantee = "NSF"
+  award = "1400256"
+  url = "https://www.nsf.gov/awardsearch/showAward?AWD_ID=1400256&HistoricalAwards=false"
+
+  [[params.grants]]
+  grantee = "NSF"
+  award = "1562911"
+  url = "https://www.nsf.gov/awardsearch/showAward?AWD_ID=1562911&HistoricalAwards=false"
 
 
   [[params.navlinks]]
