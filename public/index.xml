@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>IVALab: BioLoco Research</title>
+    <link>http://ivalab.github.io/BioLoco/</link>
+    <description>Recent content on IVALab: BioLoco Research</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 05 Nov 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://ivalab.github.io/BioLoco/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Creating snake-like robot-ground interactions.</title>
+      <link>http://ivalab.github.io/BioLoco/research/work1/</link>
+      <pubDate>Tue, 05 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://ivalab.github.io/BioLoco/research/work1/</guid>
+      <description>This is a test. Not sure why it doesn&amp;rsquo;t work</description>
+    </item>
+    
+  </channel>
+</rss>
