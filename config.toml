@@ -1,7 +1,9 @@
 baseurl = "https://ivalab.github.io/BioLoco/public"
+baseURL = "https://ivalab.github.io/BioLoco/public"
 title = "BioLoco Research"
-theme = "hugo-creative-portfolio-theme"
+theme = "hugo-theme-dream"
 languageCode = "en-us"
+defaultContentLanguage = "en-us"
 disqusShortname = ""
 googleAnalytics = ""
 
