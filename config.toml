@@ -1,4 +1,4 @@
-baseurl = "http://ivalab.github.io/BioLoco/"
+baseurl = "http://ivalab.github.io/BioLoco/public"
 title = "IVALab: BioLoco Research"
 theme = "hugo-creative-portfolio-theme"
 languageCode = "en-us"
