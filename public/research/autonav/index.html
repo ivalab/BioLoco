@@ -2,7 +2,7 @@
 <html lang="en-us">
 <head><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<title>IVALab BioLocomotion Robots</title>
+<title>Snakey SLAM-Nav</title>
 <meta name="description" content="Research efforts related to biologically-inspired locomotion.">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="all,follow">
@@ -126,29 +126,32 @@
   <div class="row">
     <div class="col-lg-8">
       <div class="content-column-content">
-         <h1>IVALab BioLocomotion Robots</h1>
-         <p>So far we have one truly functional robot, Snakey.</p>
+         <h1>Snakey SLAM-Nav</h1>
+         <p><strong>Abstract:</strong> Our lab also researches SLAM (Simultaneous Localization
+and Mapping) and Auotnomous Navigation.  We thought it would be fun to
+combine these to see what we could get.  Using a wireless camera, we
+gave it a shot.</p>
 
-<p><img src="/BioLoco/public/imgs/Snakey/charmer.png" alt="Snakey" /></p>
+<p>Given that we were getting some decent results on monocular SLAM and
+autonomous navigation using perception-space local planning, we figured
+it would be fun to try to integrate all of the different research
+threads to see if it was possible for Snakey to achieve semi-autonomous
+locomotion.  We got close. You can see Snakey SLAM-Nav version 1.0 below
+and also read about it <a href="https://arxiv.org/abs/1908.07101">here</a>.</p>
 
-<p>We have a once functional robot, Sally the Supermander, who apparently
-was used to scavenge motors from.  We are in the process of bringing her
-back to her original glory.</p>
+<p>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/UxFHa20I7zs" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+ </p>
 
-<p><img src="/BioLoco/public/imgs/Sally/onriverstones.jpg" alt="Sally the Supermander" /></p>
-
-<p>And we have a small quadruped that needs lots of love to get functional
-again, Kitty the Robocat (aka Crookshanks).</p>
-
-<p><img src="/BioLoco/public/imgs/Kitty/therobocat.png" alt="Kitty the Quadruped" /></p>
-
-<p>Off-and-on we are working towards creating a small Gorilla-bot and
-some other fun biologically-inspired robots that could be used to
-showcase the mathematics and algorithms we&rsquo;ve derived.</p>
-
-<p>You can see what our robots have achieved on this
-<a href="https://www.youtube.com/channel/UCKQ7FxpjoK-1l3Bp2qXCiYw/playlists">YouTube Channel</a>.</p>
-
+<p>The problems we encountered with a monocular camera were sufficient that
+we&rsquo;ve decided to go with a stereo camera.  To get a monocular camera to
+work, we had to use a bunch of older techniques (kind of like
+<a href="https://smartech.gatech.edu/handle/1853/24697">these</a>), plus make some
+assumptions about the camera motion since a monocular setup lacks scale
+recovery.  We should have some results soon.  Our aim is to submit them
+for publication in March 2020.</p>
          
       </div>
     </div>

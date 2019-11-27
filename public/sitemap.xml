@@ -3,13 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://ivalab.github.io/BioLoco/public/robots/</loc>
+    <loc>https://ivalab.github.io/BioLoco/public/</loc>
     <lastmod>2019-11-26T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ivalab.github.io/BioLoco/public/</loc>
-    <lastmod>2019-11-05T00:00:00+00:00</lastmod>
+    <loc>https://ivalab.github.io/BioLoco/public/robots/</loc>
+    <lastmod>2019-11-26T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -34,6 +34,11 @@
   
   <url>
     <loc>https://ivalab.github.io/BioLoco/public/research/sally/</loc>
+    <lastmod>2017-05-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ivalab.github.io/BioLoco/public/research/autonav/</loc>
     <lastmod>2017-05-05T00:00:00+00:00</lastmod>
   </url>
   

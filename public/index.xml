@@ -6,10 +6,22 @@
     <description>Recent content on BioLoco Research</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 05 Nov 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 26 Nov 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://ivalab.github.io/BioLoco/public/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>IVALab BioLocomotion Robots</title>
+      <link>https://ivalab.github.io/BioLoco/public/robots/</link>
+      <pubDate>Tue, 26 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://ivalab.github.io/BioLoco/public/robots/</guid>
+      <description>So far we have one truly functional robot, Snakey.
+We have a once functional robot, Sally the Supermander, who apparently was used to scavenge motors from. We are in the process of bringing her back to her original glory.
+And we have a small quadruped that needs lots of love to get functional again, Kitty the Robocat (aka Crookshanks).
+Off-and-on we are working towards creating a small Gorilla-bot and some other fun biologically-inspired robots that could be used to showcase the mathematics and algorithms we&amp;rsquo;ve derived.</description>
+    </item>
     
     <item>
       <title>Creating Snake-Like Robot-Ground Interactions.</title>
@@ -59,6 +71,18 @@ forward. Curving the body leads to turning.&lt;/p&gt;</description>
 and build a robotic salamander, then to realize some basic locomotion
 gait for it. Naturally, motor technology being what it is, this robot is
 bigger than your typical salamander.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Snakey SLAM-Nav</title>
+      <link>https://ivalab.github.io/BioLoco/public/research/autonav/</link>
+      <pubDate>Fri, 05 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://ivalab.github.io/BioLoco/public/research/autonav/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Our lab also researches SLAM (Simultaneous Localization
+and Mapping) and Auotnomous Navigation.  We thought it would be fun to
+combine these to see what we could get.  Using a wireless camera, we
+gave it a shot.&lt;/p&gt;</description>
     </item>
     
     <item>

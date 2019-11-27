@@ -61,5 +61,17 @@ gait for it. Naturally, motor technology being what it is, this robot is
 bigger than your typical salamander.&lt;/p&gt;</description>
     </item>
     
+    <item>
+      <title>Snakey SLAM-Nav</title>
+      <link>https://ivalab.github.io/BioLoco/public/research/autonav/</link>
+      <pubDate>Fri, 05 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://ivalab.github.io/BioLoco/public/research/autonav/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Our lab also researches SLAM (Simultaneous Localization
+and Mapping) and Auotnomous Navigation.  We thought it would be fun to
+combine these to see what we could get.  Using a wireless camera, we
+gave it a shot.&lt;/p&gt;</description>
+    </item>
+    
   </channel>
 </rss>
