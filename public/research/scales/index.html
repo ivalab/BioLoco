@@ -2,7 +2,7 @@
 <html lang="en-us">
 <head><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<title>Creating snake-like robot-ground interactions.</title>
+<title>Creating Snake-Like Robot-Ground Interactions.</title>
 <meta name="description" content="Research efforts related to biologically-inspired locomotion.">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="all,follow">
@@ -53,9 +53,11 @@
     
     <ul class="sidebar-menu">
       
-        <li><a href="https://ivalab.github.io/BioLoco/public/research/">Home</a></li>
-      
         <li><a href="https://ivalab.github.io/BioLoco/public/about/">About</a></li>
+      
+        <li><a href="https://ivalab.github.io/BioLoco/public/robots/">Robots</a></li>
+      
+        <li><a href="https://ivalab.github.io/BioLoco/public/research/">Research</a></li>
       
     </ul>
 
@@ -124,10 +126,52 @@
   <div class="row">
     <div class="col-lg-8">
       <div class="content-column-content">
-         <h1>Creating snake-like robot-ground interactions.</h1>
-         <p>This is a test.
-Not sure why it doesn&rsquo;t work</p>
+         <h1>Creating Snake-Like Robot-Ground Interactions.</h1>
+         <p><strong>Abstract:</strong> To reproduce the locomotion modalities associated to snakes
+requires achieving the same robot-ground contact force interactions.
+Following the biomechanics literature we designed a robosnake scale
+chassis to put on each of Snakey&rsquo;s joints. Doing so improved locomotion
+stability.</p>
 
+<p>Snake chassis design involved creating a surface with anisotropic
+properties. Our initial design involved an exagerated profile for the
+scales on the ground contacting portion of the chassis. We elected for
+curved extrusions that extended in width while sharpening to a flat
+edge. The idea was to act like a sharper version of a fingernail since
+close up images of snake scales do look like fingernails.  Close up
+views of the scale elements and the chassis are below.</p>
+
+<p><img src="/BioLoco/public/imgs/scales/snakey_cad_design_all.png" alt="snakey scale chassis" /></p>
+
+<p>In addition to the scaled version, we designed the top part of the
+chassis to be flat. Wrapping the snake with thick material (obtained
+from rugged worker pants) led to an isotropic ground-contact forcing
+profile.  This additional modification permitted comparison with the
+isotropic baseline, which is a design used when for non-wheeled snake
+robot designs.  Running head-to-head comparisons shows that not only do
+the scales enhance distance travelled over different ground substrates,
+but it also stabilizes the direction of motion.</p>
+
+<p>The figures below depict the head-to-head comparisons for three
+different locomotion gaits on carpet. The upper row is with scales and
+the lower row is with the isotropic cloth.</p>
+
+<p>Lateral undulation:
+<img src="/BioLoco/public/imgs/scales/carpet/tiled_image_lateral_undulation_anisotropic_natural.png" alt="carpet:lateral:scales" />
+<img src="/BioLoco/public/imgs/scales/carpet/tiled_image_lateral_undulation_isotropic_natural.png" alt="carpet:lateral:isotropic" />
+Rectilinear locomotion:
+<img src="/BioLoco/public/imgs/scales/carpet/tiled_image_rectilinear_anisotropic_natural.png" alt="carpet:rectilinear:scales" />
+<img src="/BioLoco/public/imgs/scales/carpet/tiled_image_rectilinear_isotropic_natural.png" alt="carpet:rectilinear:isotropic" />
+Sidewinding:
+<img src="/BioLoco/public/imgs/scales/carpet/tiled_image_sidewinding_anisotropic_natural.png" alt="carpet:sidewinding:scales" />
+<img src="/BioLoco/public/imgs/scales/carpet/tiled_image_sidewinding_isotropic_natural.png" alt="carpet:sidewinding:isotropic" /></p>
+
+<p>If the ground was a bit more slippery with less give in it (like
+concrete), then the isotropic surface profile had a higher heading
+variance and could not move straight. The anisotropic, scaled surface
+drifted some, but preserved the direction of motion much better.
+For more details the manuscript is
+<a href="https://doi.org/10.1017/S0263574718001522">here</a>.</p>
          
       </div>
     </div>

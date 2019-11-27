@@ -12,32 +12,53 @@
     
     
     <item>
-      <title>Creating snake-like robot-ground interactions.</title>
+      <title>Creating Snake-Like Robot-Ground Interactions.</title>
       <link>https://ivalab.github.io/BioLoco/public/research/scales/</link>
       <pubDate>Tue, 05 Nov 2019 00:00:00 +0000</pubDate>
       
       <guid>https://ivalab.github.io/BioLoco/public/research/scales/</guid>
-      <description>This is a test. Not sure why it doesn&amp;rsquo;t work</description>
+      <description>&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; To reproduce the locomotion modalities associated to snakes
+requires achieving the same robot-ground contact force interactions.
+Following the biomechanics literature we designed a robosnake scale
+chassis to put on each of Snakey&amp;rsquo;s joints. Doing so improved locomotion
+stability.&lt;/p&gt;</description>
     </item>
     
     <item>
-      <title>Modeling Planar Motion.</title>
+      <title>Modeling Planar Snake Movement.</title>
       <link>https://ivalab.github.io/BioLoco/public/research/modeling/</link>
       <pubDate>Tue, 05 Nov 2019 00:00:00 +0000</pubDate>
       
       <guid>https://ivalab.github.io/BioLoco/public/research/modeling/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt; Deriving equations of motion for snake movement on a flat
-plane is fairly easy and provides a unified approach to modeling many
-different gats.&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt; When the correct representation for modeling snake movement
+is chosen, then deriving equations of motion for snake movement on a flat
+plane is fairly easy.  Furthermore, one overall dynamic model provides a
+unified approach to modeling many different gaits.  So far, we have
+modeled rectilinear locomotion, lateral undulation, and sidewinding.
+A turn-in-place gait is currently under study.&lt;/p&gt;</description>
     </item>
     
     <item>
-      <title>Rectilinear Motion.</title>
+      <title>Rectilinear Snake Motion.</title>
       <link>https://ivalab.github.io/BioLoco/public/research/rectilinear/</link>
       <pubDate>Tue, 05 Nov 2019 00:00:00 +0000</pubDate>
       
       <guid>https://ivalab.github.io/BioLoco/public/research/rectilinear/</guid>
-      <description>The easiest gait to analyze is the rectilinear locomotion gait.</description>
+      <description>&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Rectilinear locomotion is different from but analgous to
+caterpillar locomotion. The body undulates vertically only to move
+forward. Curving the body leads to turning.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Sally the Supermander.</title>
+      <link>https://ivalab.github.io/BioLoco/public/research/sally/</link>
+      <pubDate>Fri, 05 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://ivalab.github.io/BioLoco/public/research/sally/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; The objective of this senior design project was to design
+and build a robotic salamander, then to realize some basic locomotion
+gait for it. Naturally, motor technology being what it is, this robot is
+bigger than your typical salamander.&lt;/p&gt;</description>
     </item>
     
   </channel>

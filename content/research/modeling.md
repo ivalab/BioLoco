@@ -1,14 +1,17 @@
 +++
 showonlyimage = false
 draft = false
-image = ""
+image = "imgs/modeling/gait3D.png"
 date  = "2019-11-05"
-title = "Modeling Planar Motion."
+title = "Modeling Planar Snake Movement."
 +++
 
-**Abstract** Deriving equations of motion for snake movement on a flat
-plane is fairly easy and provides a unified approach to modeling many
-different gats.
+**Abstract** When the correct representation for modeling snake movement
+is chosen, then deriving equations of motion for snake movement on a flat
+plane is fairly easy.  Furthermore, one overall dynamic model provides a
+unified approach to modeling many different gaits.  So far, we have
+modeled rectilinear locomotion, lateral undulation, and sidewinding.
+A turn-in-place gait is currently under study.
 <!--more-->
 
 

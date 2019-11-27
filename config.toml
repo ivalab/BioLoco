@@ -1,7 +1,7 @@
 baseurl = "https://ivalab.github.io/BioLoco/public"
 baseURL = "https://ivalab.github.io/BioLoco/public"
 title = "BioLoco Research"
-theme = "hugo-theme-dream"
+theme = "hugo-creative-portfolio-theme"
 languageCode = "en-us"
 defaultContentLanguage = "en-us"
 disqusShortname = ""
@@ -9,6 +9,7 @@ googleAnalytics = ""
 
 [params]
   style = "sea"
+  title = "IVALab:BioLoco"
   description = "Research efforts related to biologically-inspired locomotion."
   copyright = ""
   support = "Research supported in part by National Science Foundation.  Any opinions, findings, and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the National Science Foundation."
@@ -25,16 +26,20 @@ googleAnalytics = ""
   award = "1562911"
   url = "https://www.nsf.gov/awardsearch/showAward?AWD_ID=1562911&HistoricalAwards=false"
 
-
-  [[params.navlinks]]
-  name = "Home"
-  url  = "research/"
-  home = true
-
-
   [[params.navlinks]]
   name = "About"
   url = "about/"
+  home = false
+
+  [[params.navlinks]]
+  name = "Robots"
+  url  = "robots/"
+  home = false
+
+  [[params.navlinks]]
+  name = "Research"
+  url  = "research/"
+  home = true
 
   [params.social]
   github  = "https://github.com/ivalab"
