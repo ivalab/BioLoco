@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sally on BioLoco Research</title>
+    <link>https://ivalab.github.io/BioLoco/public/tags/sally/</link>
+    <description>Recent content in Sally on BioLoco Research</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 05 May 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://ivalab.github.io/BioLoco/public/tags/sally/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Sally the Supermander.</title>
+      <link>https://ivalab.github.io/BioLoco/public/research/sally/</link>
+      <pubDate>Fri, 05 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://ivalab.github.io/BioLoco/public/research/sally/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; The objective of this senior design project was to design
+and build a robotic salamander, then to realize some basic locomotion
+gait for it. Naturally, motor technology being what it is, this robot is
+bigger than your typical salamander.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

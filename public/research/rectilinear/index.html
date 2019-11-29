@@ -88,7 +88,23 @@
 </p>
 
 
-    <div class="support">
+  Select by Tags:<BR>
+  
+    <a href="https://ivalab.github.io/BioLoco/public/tags/gaits/"
+    style="padding:0px 5px 0px 5px">Gaits</a>
+  
+    <a href="https://ivalab.github.io/BioLoco/public/tags/rectilinear/"
+    style="padding:0px 5px 0px 5px">Rectilinear</a>
+  
+    <a href="https://ivalab.github.io/BioLoco/public/tags/sally/"
+    style="padding:0px 5px 0px 5px">Sally</a>
+  
+    <a href="https://ivalab.github.io/BioLoco/public/tags/snakey/"
+    style="padding:0px 5px 0px 5px">Snakey</a>
+  
+  <a href="/BioLoco/public/research" style="padding:0px 5px 0px 5px">All</a>
+
+    <div class="support" style="padding-top:15px">
       <p class="credit">
         
           Research supported in part by National Science Foundation.  Any opinions, findings, and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the National Science Foundation. 
@@ -114,6 +130,7 @@
       </p>
     </div>
   </div>
+
 </div>
 
               
@@ -133,10 +150,29 @@ forward. Curving the body leads to turning.</p>
 <p>The easiest gait to analyze, produce, and control is the rectilinear
 locomotion gait. It is not because the other gaits are necessarily
 harder to work out, but because rectilinear locomotion is so slow!
-That permits use the ability to use our overhead tracking system for
+That permits us the ability to use our overhead tracking system for
 performing closed-loop control without worrying about the snake going
 out of bounds.  A few gaits of sidewinding and the snake isn't in the
 field of view anymore.</p>
+<p>Rectilinear locomotion is a bit like caterpillar movement, but different
+in terms of the underlying robot-ground interaction.  A travelling
+wave propogates from the back-end of the snake to the front-end.  Doing
+so creates a rolling-like property that leads to forward motion.
+Because our snake is discretized, this forward motion is more of a roll,
+then slide, then roll, then slide, depending on whether the scales lie
+flat on the ground (slide) or they have angled contact with the ground.</p>
+<p>Two visualized scenarios of closed-loop tracking of trajectories
+synthesized using optial control are depicted below. You can see a
+sample video of the snake in action
+<a href="https://www.youtube.com/watch?v=zMIiXi-pG18">here</a>, for the scenarios
+depicted below.  The video was sped up 12x because rectilinear motion is
+quite slow.  It really is a function of the discretized snake links, as
+they are the primary factor in not achieving the theoretically derived
+top speed.</p>
+<!-- raw HTML omitted -->
+<p>The method and mathematics was first presented at ICRA in 2017
+(<a href="https://ieeexplore.ieee.org/document/7989404">abstract</a>).
+An improved and extended version has been submitted for publication.</p>
          
       </div>
     </div>

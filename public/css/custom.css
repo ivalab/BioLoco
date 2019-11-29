@@ -1,5 +1,5 @@
 
-div.myrow {
+.myrow {
   display:flex;
   flex-flow:row nowrap;
   padding:0px 0px 0px 0px;

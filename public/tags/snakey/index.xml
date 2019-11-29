@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Snakey on BioLoco Research</title>
+    <link>https://ivalab.github.io/BioLoco/public/tags/snakey/</link>
+    <description>Recent content in Snakey on BioLoco Research</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 05 Nov 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://ivalab.github.io/BioLoco/public/tags/snakey/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Creating Snake-Like Robot-Ground Interactions.</title>
+      <link>https://ivalab.github.io/BioLoco/public/research/scales/</link>
+      <pubDate>Tue, 05 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://ivalab.github.io/BioLoco/public/research/scales/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; To reproduce the locomotion modalities associated to snakes
+requires achieving the same robot-ground contact force interactions.
+Following the biomechanics literature we designed a robosnake scale
+chassis to put on each of Snakey&#39;s joints. Doing so improved locomotion
+stability.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Modeling Planar Snake Movement.</title>
+      <link>https://ivalab.github.io/BioLoco/public/research/modeling/</link>
+      <pubDate>Tue, 05 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://ivalab.github.io/BioLoco/public/research/modeling/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt; When the correct representation for modeling snake movement
+is chosen, then deriving equations of motion for snake movement on a flat
+plane is fairly easy.  Furthermore, one overall dynamic model provides a
+unified approach to modeling many different gaits.  So far, we have
+modeled rectilinear locomotion, lateral undulation, and sidewinding.
+A turn-in-place gait is currently under study.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Rectilinear Snake Motion.</title>
+      <link>https://ivalab.github.io/BioLoco/public/research/rectilinear/</link>
+      <pubDate>Tue, 05 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://ivalab.github.io/BioLoco/public/research/rectilinear/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Rectilinear locomotion is different from but analgous to
+caterpillar locomotion. The body undulates vertically only to move
+forward. Curving the body leads to turning.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Snakey SLAM-Nav</title>
+      <link>https://ivalab.github.io/BioLoco/public/research/autonav/</link>
+      <pubDate>Fri, 05 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://ivalab.github.io/BioLoco/public/research/autonav/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Our lab also researches SLAM (Simultaneous Localization
+and Mapping) and Auotnomous Navigation.  We thought it would be fun to
+combine these to see what we could get.  Using a wireless camera, we
+gave it a shot.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

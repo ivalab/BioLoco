@@ -18,7 +18,17 @@
   </url>
   
   <url>
+    <loc>https://ivalab.github.io/BioLoco/public/tags/gaits/</loc>
+    <lastmod>2019-11-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://ivalab.github.io/BioLoco/public/research/modeling/</loc>
+    <lastmod>2019-11-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ivalab.github.io/BioLoco/public/tags/rectilinear/</loc>
     <lastmod>2019-11-05T00:00:00+00:00</lastmod>
   </url>
   
@@ -33,6 +43,21 @@
   </url>
   
   <url>
+    <loc>https://ivalab.github.io/BioLoco/public/tags/snakey/</loc>
+    <lastmod>2019-11-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ivalab.github.io/BioLoco/public/tags/</loc>
+    <lastmod>2019-11-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ivalab.github.io/BioLoco/public/tags/sally/</loc>
+    <lastmod>2017-05-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://ivalab.github.io/BioLoco/public/research/sally/</loc>
     <lastmod>2017-05-05T00:00:00+00:00</lastmod>
   </url>
@@ -43,19 +68,11 @@
   </url>
   
   <url>
-    <loc>https://ivalab.github.io/BioLoco/public/categories/</loc>
-  </url>
-  
-  <url>
     <loc>https://ivalab.github.io/BioLoco/public/about/</loc>
   </url>
   
   <url>
     <loc>https://ivalab.github.io/BioLoco/public/bioloco/</loc>
-  </url>
-  
-  <url>
-    <loc>https://ivalab.github.io/BioLoco/public/tags/</loc>
   </url>
   
 </urlset>

@@ -6,9 +6,46 @@
     <description>Recent content in Tags on BioLoco Research</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Tue, 05 Nov 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://ivalab.github.io/BioLoco/public/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Gaits</title>
+      <link>https://ivalab.github.io/BioLoco/public/tags/gaits/</link>
+      <pubDate>Tue, 05 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://ivalab.github.io/BioLoco/public/tags/gaits/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rectilinear</title>
+      <link>https://ivalab.github.io/BioLoco/public/tags/rectilinear/</link>
+      <pubDate>Tue, 05 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://ivalab.github.io/BioLoco/public/tags/rectilinear/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Snakey</title>
+      <link>https://ivalab.github.io/BioLoco/public/tags/snakey/</link>
+      <pubDate>Tue, 05 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://ivalab.github.io/BioLoco/public/tags/snakey/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sally</title>
+      <link>https://ivalab.github.io/BioLoco/public/tags/sally/</link>
+      <pubDate>Fri, 05 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://ivalab.github.io/BioLoco/public/tags/sally/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>
