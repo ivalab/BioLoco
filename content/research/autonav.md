@@ -4,6 +4,7 @@ draft = false
 image = ""
 date  = "2017-05-05"
 title = "Snakey SLAM-Nav"
+tags  = ["Snakey"]
 +++
 
 **Abstract:** Our lab also researches SLAM (Simultaneous Localization

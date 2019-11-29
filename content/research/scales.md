@@ -4,6 +4,7 @@ draft = false
 image = "imgs/scales/scale_case.png"
 date  = "2019-11-05"
 title = "Creating Snake-Like Robot-Ground Interactions."
+tags  = ["Snakey"]
 +++
 
 **Abstract:** To reproduce the locomotion modalities associated to snakes

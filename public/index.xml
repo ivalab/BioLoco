@@ -17,10 +17,9 @@
       <pubDate>Tue, 26 Nov 2019 00:00:00 +0000</pubDate>
       
       <guid>https://ivalab.github.io/BioLoco/public/robots/</guid>
-      <description>So far we have one truly functional robot, Snakey.
+      <description>So far we have one truly functional robot, Snakey. Every once in a while Snakey will sport a head consisting of a wireless monocular or stereo camera.
 We have a once functional robot, Sally the Supermander, who apparently was used to scavenge motors from. We are in the process of bringing her back to her original glory.
-And we have a small quadruped that needs lots of love to get functional again, Kitty the Robocat (aka Crookshanks).
-Off-and-on we are working towards creating a small Gorilla-bot and some other fun biologically-inspired robots that could be used to showcase the mathematics and algorithms we&amp;rsquo;ve derived.</description>
+And we have a small quadruped that needs lots of love to get functional again, Kitty the Robocat (aka Crookshanks).</description>
     </item>
     
     <item>
@@ -32,7 +31,7 @@ Off-and-on we are working towards creating a small Gorilla-bot and some other fu
       <description>&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; To reproduce the locomotion modalities associated to snakes
 requires achieving the same robot-ground contact force interactions.
 Following the biomechanics literature we designed a robosnake scale
-chassis to put on each of Snakey&amp;rsquo;s joints. Doing so improved locomotion
+chassis to put on each of Snakey&#39;s joints. Doing so improved locomotion
 stability.&lt;/p&gt;</description>
     </item>
     
@@ -91,7 +90,7 @@ gave it a shot.&lt;/p&gt;</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ivalab.github.io/BioLoco/public/bioloco/</guid>
-      <description>So far, we have been studying snake locomotion with the intent to figure out how to perform planning, trajectory synthesis, and feedback control for this class of bio-inspired robots. We got the theory mostly worked out for flat planar surface, and hope that we can experimentally verify the mathematics. So far, we&amp;rsquo;ve got rectilinear motion down, and are going to take care of sidewinding next. Lateral undulation is a bit trickier since the motion dynamics are a bit more complex.</description>
+      <description>So far, we have been studying snake locomotion with the intent to figure out how to perform planning, trajectory synthesis, and feedback control for this class of bio-inspired robots. We got the theory mostly worked out for flat planar surface, and hope that we can experimentally verify the mathematics. So far, we&#39;ve got rectilinear motion down, and are going to take care of sidewinding next. Lateral undulation is a bit trickier since the motion dynamics are a bit more complex.</description>
     </item>
     
   </channel>

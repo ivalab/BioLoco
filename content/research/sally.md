@@ -4,6 +4,7 @@ draft = false
 image = "imgs/Sally/onriverstones.jpg"
 date  = "2017-05-05"
 title = "Sally the Supermander."
+tags  = ["Sally"]
 +++
 
 **Abstract:** The objective of this senior design project was to design

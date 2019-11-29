@@ -4,6 +4,7 @@ draft = false
 image = "imgs/modeling/gait3D.png"
 date  = "2019-11-05"
 title = "Modeling Planar Snake Movement."
+tags  = ["Snakey","Gaits"]
 +++
 
 **Abstract** When the correct representation for modeling snake movement
