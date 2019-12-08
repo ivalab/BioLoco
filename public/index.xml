@@ -17,9 +17,8 @@
       <pubDate>Tue, 26 Nov 2019 00:00:00 +0000</pubDate>
       
       <guid>https://ivalab.github.io/BioLoco/public/robots/</guid>
-      <description>So far we have one truly functional robot, Snakey. Every once in a while Snakey will sport a head consisting of a wireless monocular or stereo camera.
-We have a once functional robot, Sally the Supermander, who apparently was used to scavenge motors from. We are in the process of bringing her back to her original glory.
-And we have a small quadruped that needs lots of love to get functional again, Kitty the Robocat (aka Crookshanks).</description>
+      <description>So far we have one truly functional robot, Snakey. The rest are undergoing rebuilds. You can learn about what we are doing with each robot by following the tag link with their name on the left. No tag means nothing is ready yet.
+Snakey This robotic snake sports custom scales on the bottom side (can be seen in the photos), whose role is to help snakey locomote. They work well except when on smooth surfaces.</description>
     </item>
     
     <item>
@@ -55,8 +54,8 @@ A turn-in-place gait is currently under study.&lt;/p&gt;</description>
       <pubDate>Tue, 05 Nov 2019 00:00:00 +0000</pubDate>
       
       <guid>https://ivalab.github.io/BioLoco/public/research/rectilinear/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Rectilinear locomotion is different from but analgous to
-caterpillar locomotion. The body undulates vertically only to move
+      <description>&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Rectilinear locomotion is different from but analagous to
+caterpillar locomotion. The body undulates vertically to move
 forward. Curving the body leads to turning.&lt;/p&gt;</description>
     </item>
     

@@ -14,7 +14,7 @@
 <link rel="stylesheet" href="https://ivalab.github.io/BioLoco/public/css/owl.theme.css">
 
 
-  <link href="https://ivalab.github.io/BioLoco/public/css/style.sea.css" rel="stylesheet" id="theme-stylesheet">
+  <link href="https://ivalab.github.io/BioLoco/public/css/style.ivalab.css" rel="stylesheet" id="theme-stylesheet">
 
  
 
@@ -64,6 +64,10 @@
     <p class="social">
   
   
+  
+  <a href="https://twitter.com/IVALab5" data-animate-hover="pulse" class="external twitter">
+    <i class="fa fa-twitter"></i>
+  </a>
   
   
   
@@ -144,8 +148,8 @@
     <div class="col-lg-8">
       <div class="content-column-content">
          <h1>Rectilinear Snake Motion.</h1>
-         <p><strong>Abstract:</strong> Rectilinear locomotion is different from but analgous to
-caterpillar locomotion. The body undulates vertically only to move
+         <p><strong>Abstract:</strong> Rectilinear locomotion is different from but analagous to
+caterpillar locomotion. The body undulates vertically to move
 forward. Curving the body leads to turning.</p>
 <p>The easiest gait to analyze, produce, and control is the rectilinear
 locomotion gait. It is not because the other gaits are necessarily
@@ -158,21 +162,69 @@ field of view anymore.</p>
 in terms of the underlying robot-ground interaction.  A travelling
 wave propogates from the back-end of the snake to the front-end.  Doing
 so creates a rolling-like property that leads to forward motion.
+You can see an overhead video <a href="https://youtu.be/Q9hvddTjHXw">here</a>.
 Because our snake is discretized, this forward motion is more of a roll,
 then slide, then roll, then slide, depending on whether the scales lie
 flat on the ground (slide) or they have angled contact with the ground.</p>
 <p>Two visualized scenarios of closed-loop tracking of trajectories
-synthesized using optial control are depicted below. You can see a
-sample video of the snake in action
-<a href="https://www.youtube.com/watch?v=zMIiXi-pG18">here</a>, for the scenarios
-depicted below.  The video was sped up 12x because rectilinear motion is
-quite slow.  It really is a function of the discretized snake links, as
-they are the primary factor in not achieving the theoretically derived
-top speed.</p>
-<!-- raw HTML omitted -->
+synthesized using optial control are depicted below. You can see
+sample videos of the snake in action at this
+<a href="https://www.youtube.com/playlist?list=PLWPjf-IY-3dFbyMUB6BIKD1s9-LehFwie">playlist</a>, for the scenarios
+depicted below.  The playlist has different versions of our trajectory
+planning and tracking algorithms to date. The video are typically sped
+up 12x or so because rectilinear motion is quite slow.  Our snake
+travels at around 22 mm/s.  It really is a function of the discretized
+snake links, as they are the primary factor in not achieving the
+theoretically derived top speed (of around 150-200 mm/s).</p>
+<div style="display:flex;flex-flow:row nowrap;padding:0px 0px 0px
+0px;margin:0px 0px 0px 0px;justify-content:center;align-items:center">
+  <div style="flex:50%">
+  <img src="/BioLoco/public/imgs/rectilinear/obst_exper_02_exp_scen.png">
+  </div>
+  <div style="flex:50%">
+  <img src="/BioLoco/public/imgs/rectilinear/obst_exper_03_exp_scen.png">
+  </div>
+</div>
 <p>The method and mathematics was first presented at ICRA in 2017
 (<a href="https://ieeexplore.ieee.org/document/7989404">abstract</a>).
-An improved and extended version has been submitted for publication.</p>
+An improved and extended version has been submitted for publication,
+while a more complete bendable model has also been implemented using
+the methods from our
+<a href="https://arxiv.org/abs/1712.06021">Bendable Lp
+paper</a>. Snakey gets modeled as a
+tube.  We are working on this publication.</p>
+<h4 id="trajectory-planning-and-tracking">Trajectory Planning and Tracking</h4>
+<p>How to successfully plan and execute trajectories for snake robots
+still requires investigation.  Besides working out the dynamics, it is
+important to also work out the body - environment interactions.  for
+example, if the snake should not touch or hit any obstacles, then
+incorporating that into the planning is interesting because the Snakey
+is an articulated robot.  Its shape can change based on the motor
+commands.  First we modeled snakey as points,
+then as a set of three smaller boxes, and
+finally as a bending tube (in 2D and 3D).  This
+progression got tougher and tougher to model, which meant that we had
+to create new means to create the trajectories.  Our latest version
+of cotnrolling Snakey during rectilinear locomotion using the tube model
+is below.</p>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/ewzWINxfBKc" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+<p>You can see the tube overlay in yellow.  Sometimes the tube
+doesn't exactly fit. This is because it takes time for Snakey to change
+from one shape to the next.  Within a second or so, it should match the
+overlay.  The obstacle boundaries and their inflated versions, for
+safety, are also depicted around the obstacle regions.  The overlays
+basically show you what the trajectory planner knows or has computed.
+Stability of Snakey limits how much Snakey can curve before
+tipping to the side, which also limits how quickly Snakey can turn.
+That means this gait is not good for scenarios requiring tight turns.
+For that Snakey will have to learn a new gait for moving forward, or
+will have to learn how to turn-in-place. right now we are focused on
+having Snakey turn in place.  After that, we will look into other more
+manueverable gaits.</p>
          
       </div>
     </div>

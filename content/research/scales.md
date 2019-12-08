@@ -54,7 +54,7 @@ drifted some, but preserved the direction of motion much better.
 For more details the manuscript is
 [here](https://doi.org/10.1017/S0263574718001522).   You can also see
 some of the head-to-head races on this [YouTube
-playlist](https://www.youtube.com/playlist?list=PLWPjf-IY-3dG4p-ylyTQOMnnbCRz80mQS).
+playlist](https://www.youtube.com/playlist?list=PLWPjf-IY-3dFOkjEfQgY5STX5Bm1tJogE).
 
 
 [1]: /BioLoco/public/imgs/scales/snakey_cad_design_all.png

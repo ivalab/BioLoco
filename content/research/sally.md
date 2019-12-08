@@ -22,7 +22,7 @@ ultimately will support search and rescue types of applications.
 Based on our lab naming convention, we dubbed her Sally.  Hence, Sally
 the Supermander. Here she is in action:
 
-{{<youtube BKtVDXKcwqQ>}} \
+{{<youtube BKtVDXKcwqQ>}} 
 
 
 The senior design team did a great job creating the snake model,
