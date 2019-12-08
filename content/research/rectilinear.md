@@ -62,17 +62,16 @@ tube.  We are working on this publication.
 
 How to successfully plan and execute trajectories for snake robots
 still requires investigation.  Besides working out the dynamics, it is
-important to also work out the body - environment interactions.  for
-example, if the snake should not touch or hit any obstacles, then
-incorporating that into the planning is interesting because the Snakey
-is an articulated robot.  Its shape can change based on the motor
-commands.  First we modeled snakey as points, 
-then as a set of three smaller boxes, and 
-finally as a bending tube (in 2D and 3D).  This
-progression got tougher and tougher to model, which meant that we had
-to create new means to create the trajectories.  Our latest version
-of cotnrolling Snakey during rectilinear locomotion using the tube model
-is below.  
+important to also work out the body - environment interactions.  For
+example, if the robotic snake should not touch or hit any obstacles,
+then incorporating that into the planning is interesting because 
+Snakey is an articulated robot.  Its shape can change based on the
+motor commands.  First we modeled snakey as points, then as a set of
+three smaller boxes, and finally as a bending tube (in 2D and 3D).
+This progression got tougher and tougher to model and incorporate
+mathematically, which meant that we had to create new approaches to
+synthesize the trajectories.  Our latest version of cotnrolling Snakey
+during rectilinear locomotion using the tube model is below.  
 
 {{<youtube ewzWINxfBKc>}}
 
