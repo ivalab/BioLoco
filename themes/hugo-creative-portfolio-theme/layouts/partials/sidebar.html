@@ -38,7 +38,19 @@
       <p class="support">
         <p class="credit">
       {{ range .Site.Params.grants }}
-        <a target="_blank" href="{{ absURL .url }}">{{ .grantee }} &#35;{{ .award }} </a><BR>
+        {{ if isset . "url" }}
+          {{ if isset . "award" }}
+            <a target="_blank" href="{{ absURL .url }}">{{ .grantee }} &#35;{{ .award }} </a><BR>
+          {{ else }}
+            <a target="_blank" href="{{ absURL .url }}">{{ .grantee }}</a><BR>
+          {{ end }}
+        {{else}}
+          {{ if isset . "award" }}
+            {{.grantee}}&#35;{{ .award }} <BR>
+          {{ else }}
+            {{.grantee}}
+          {{ end }}
+        {{end}}
       {{ end }}
         </p>
       </p>
